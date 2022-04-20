@@ -34,7 +34,7 @@ $DB_NAME=$_ENV['DB_NAME'];
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
@@ -53,10 +53,10 @@ $DB_NAME=$_ENV['DB_NAME'];
                     }
                     else{
                         echo " <li class='nav-item'>
-                        <a class='nav-link' href='signup.php'>Sign Up</a>
+                        <a class='nav-link' href='signup'>Sign Up</a>
                     </li>";
                         echo " <li class='nav-item'>
-                        <a class='nav-link' href='login.php'>Log in</a>
+                        <a class='nav-link' href='login'>Log in</a>
                     </li>";
                     }
                     ?>
